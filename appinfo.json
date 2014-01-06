@@ -10,7 +10,7 @@
     "shortName": "TriZone",
     "companyName": "mprogano",
     "watchapp": {
-        "watchface": false
+        "watchface": true
     },
     "resources": {
         "media": [
