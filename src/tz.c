@@ -20,7 +20,7 @@ PBL_APP_INFO(
 	UUID,
 	"Timezone",
 	"hudson",
-	1, 0, // Version
+	2, 0, // Version
 	RESOURCE_ID_IMAGE_MENU_ICON,
 	APP_INFO_WATCH_FACE
 );
@@ -35,7 +35,8 @@ typedef struct
 
 
 // Local timezone GMT offset
-static const int gmt_offset = -5 * 60;
+static const int gmt_offset = -5 * 60; //EST
+//static const int gmt_offset = 0; //GTM
 
 #define NUM_TIMEZONES 3
 #define LAYER_HEIGHT (PEBBLE_SCREEN_HEIGHT / NUM_TIMEZONES)

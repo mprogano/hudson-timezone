@@ -1,0 +1,39 @@
+{
+    "versionLabel": "1.0",
+    "uuid": "2bc6bfa0-5521-4928-b4bb-d79f12aacff5",
+    "appKeys": {},
+    "longName": "TriZone",
+    "versionCode": 1,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "TriZone",
+    "companyName": "mprogano",
+    "watchapp": {
+        "watchface": false
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "font",
+                "name": "FONT_ARIAL_20",
+                "file": "fonts/Arial.ttf"
+            },
+            {
+                "type": "font",
+                "name": "FONT_ARIAL_16",
+                "file": "fonts/Arial.ttf"
+            },
+            {
+                "type": "font",
+                "name": "FONT_ARIAL_BLACK_30",
+                "file": "fonts/Arial-Black.ttf"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_MENU_ICON",
+                "file": "images/menu_icon.png"
+            }
+        ]
+    }
+}
